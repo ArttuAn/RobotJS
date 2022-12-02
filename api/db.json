@@ -2,17 +2,17 @@
   "projects": [
     {
       "id": 1,
-      "name": "Johnson - Kutch",
-      "description": "Fully-configurable intermediate framework. Ullam occaecati libero laudantium nihil voluptas omnis qui modi qui.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch4.jpg",
       "contractTypeId": 3,
       "contractSignedOn": "2013-08-04T22:39:41.473Z",
-      "budget": 54637,
+      "budget": 1450000,
       "isActive": false
     },
     {
       "id": 2,
-      "name": "Dillesik LLCs",
+      "name": "Testinimi",
       "description": "Re-contextualized dynamic moratorium. Aut nulla soluta numquam qui dolor architecto et facere dolores.",
       "imageUrl": "/assets/placeimg_500_300_arch12.jpg",
       "contractTypeId": 6,
@@ -22,12 +22,12 @@
     },
     {
       "id": 3,
-      "name": "Purdy, Keeling and Smithams",
-      "description": "Innovative 6th generation model. Perferendis libero qui iusto et ullam cum sint molestias vel.",
-      "imageUrl": "/assets/placeimg_500_300_arch5.jpg",
-      "contractTypeId": 4,
-      "contractSignedOn": "2013-05-26T01:10:42.344Z",
-      "budget": 45660,
+      "name": "testi",
+      "description": "Re-contextualized dynamic moratorium. Aut nulla soluta numquam qui dolor architecto et facere dolores.",
+      "imageUrl": "/assets/placeimg_500_300_arch12.jpg",
+      "contractTypeId": 6,
+      "contractSignedOn": "2016-06-26T18:24:01.706Z",
+      "budget": 29729,
       "isActive": true
     },
     {
@@ -42,32 +42,32 @@
     },
     {
       "id": 5,
-      "name": "Crona Inc",
-      "description": "Monitored explicit methodology. Rem quos maxime amet autem beatae quisquam excepturi sint velit.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch5.jpg",
       "contractTypeId": 1,
       "contractSignedOn": "2016-11-14T19:19:53.624Z",
-      "budget": 31350,
+      "budget": 1450000,
       "isActive": true
     },
     {
       "id": 6,
-      "name": "Breitenberg - Mitchell",
-      "description": "Profound upward-trending product. Neque necessitatibus quia aut autem suscipit laborum eos saepe veritatis.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch10.jpg",
       "contractTypeId": 2,
       "contractSignedOn": "2015-03-05T17:00:16.696Z",
-      "budget": 67030,
+      "budget": 1450000,
       "isActive": false
     },
     {
       "id": 7,
-      "name": "Christiansen LLC",
-      "description": "Customer-focused composite implementation. Rerum ullam est voluptate hic eligendi autem rerum cum et.",
+      "name": "Haljamintie 21",
+      "description": "Tämä omakotitalo sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch9.jpg",
       "contractTypeId": 3,
       "contractSignedOn": "2015-04-14T19:46:53.146Z",
-      "budget": 98600,
+      "budget": 1450000,
       "isActive": true
     },
     {
@@ -112,12 +112,12 @@
     },
     {
       "id": 12,
-      "name": "Jones, Boyle and Reichel",
-      "description": "Cross-platform high-level hierarchy. Ut recusandae sint accusamus nam sunt repellendus nihil soluta ipsam.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch9.jpg",
       "contractTypeId": 1,
       "contractSignedOn": "2014-02-23T12:11:19.381Z",
-      "budget": 79475,
+      "budget": 1450000,
       "isActive": true
     },
     {
@@ -132,12 +132,12 @@
     },
     {
       "id": 14,
-      "name": "Bruen and Sons",
-      "description": "Switchable composite strategy. Non accusamus quo ipsam animi unde quas ut et voluptate.",
+      "name": "Haljamintie 21",
+      "description": "Tämä omakotitalo sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch8.jpg",
       "contractTypeId": 3,
       "contractSignedOn": "2014-08-19T07:03:27.419Z",
-      "budget": 80726,
+      "budget": 1450000,
       "isActive": false
     },
     {
@@ -152,12 +152,12 @@
     },
     {
       "id": 16,
-      "name": "Haag - O'Keefe",
-      "description": "Vision-oriented dedicated knowledge user. Et rem vero et exercitationem et veritatis accusamus id optio.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch2.jpg",
       "contractTypeId": 5,
       "contractSignedOn": "2017-02-16T12:28:52.794Z",
-      "budget": 55137,
+      "budget": 1450000,
       "isActive": false
     },
     {
@@ -192,12 +192,12 @@
     },
     {
       "id": 20,
-      "name": "Durgan and Sons",
-      "description": "Universal incremental definition. Voluptatem dolores distinctio qui blanditiis impedit dolores maiores rerum et.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch1.jpg",
       "contractTypeId": 2,
       "contractSignedOn": "2014-02-17T09:09:54.542Z",
-      "budget": 79434,
+      "budget": 1450000,
       "isActive": false
     },
     {
@@ -222,17 +222,17 @@
     },
     {
       "id": 23,
-      "name": "Gleichner Inc",
-      "description": "Seamless incremental knowledge base. Nobis optio omnis esse qui doloremque non odit voluptatem molestiae.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch4.jpg",
       "contractTypeId": 2,
       "contractSignedOn": "2015-07-02T19:53:04.455Z",
-      "budget": 65773,
+      "budget": 1450000,
       "isActive": false
     },
     {
       "id": 24,
-      "name": "Carroll - O'Keefe",
+      "name": "Kauppakeskus Trio",
       "description": "Implemented foreground instruction set. Dolores temporibus libero non quos voluptas quis sapiente dolores deserunt.",
       "imageUrl": "/assets/placeimg_500_300_arch3.jpg",
       "contractTypeId": 7,
@@ -252,17 +252,17 @@
     },
     {
       "id": 26,
-      "name": "Gutmann - Rogahn",
-      "description": "Business-focused even-keeled hub. Dignissimos dolorem sed sint nostrum repellat et voluptas voluptatem eaque.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch9.jpg",
       "contractTypeId": 6,
       "contractSignedOn": "2012-07-18T12:04:53.879Z",
-      "budget": 82401,
+      "budget": 1450000,
       "isActive": false
     },
     {
       "id": 27,
-      "name": "Davis and Sons",
+      "name": "Testinimi",
       "description": "Up-sized fresh-thinking complexity. Totam vel possimus omnis delectus dolor non nostrum maxime corporis.",
       "imageUrl": "/assets/placeimg_500_300_arch7.jpg",
       "contractTypeId": 1,
@@ -272,12 +272,12 @@
     },
     {
       "id": 28,
-      "name": "Donnelly and Sons",
-      "description": "Integrated cohesive process improvement. Non aut qui ullam alias qui ea dolorum voluptatem accusamus.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch10.jpg",
       "contractTypeId": 3,
       "contractSignedOn": "2013-07-25T14:44:08.646Z",
-      "budget": 97304,
+      "budget": 1450000,
       "isActive": true
     },
     {
@@ -312,7 +312,7 @@
     },
     {
       "id": 32,
-      "name": "Daniel, Howell and Nader",
+      "name": "Testinimi",
       "description": "Horizontal zero administration time-frame. Hic rerum est quo id aut adipisci odio ipsa ab.",
       "imageUrl": "/assets/placeimg_500_300_arch5.jpg",
       "contractTypeId": 3,
@@ -322,12 +322,12 @@
     },
     {
       "id": 33,
-      "name": "Homenick Group",
-      "description": "Fully-configurable object-oriented info-mediaries. Nemo omnis suscipit eius est impedit dolorem vitae dolores vel.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch7.jpg",
       "contractTypeId": 1,
       "contractSignedOn": "2013-03-31T02:03:02.721Z",
-      "budget": 42390,
+      "budget": 1450000,
       "isActive": true
     },
     {
@@ -342,12 +342,12 @@
     },
     {
       "id": 35,
-      "name": "Erdman - Franecki",
+      "name": "Kauppakeskus Trio",
       "description": "Optional multi-state emulation. Voluptate et nobis est optio sed odit neque omnis ut.",
       "imageUrl": "/assets/placeimg_500_300_arch2.jpg",
       "contractTypeId": 6,
       "contractSignedOn": "2011-01-30T15:45:37.213Z",
-      "budget": 51997,
+      "budget": 5199737,
       "isActive": false
     },
     {
@@ -372,23 +372,23 @@
     },
     {
       "id": 38,
-      "name": "Fisher - Okuneva",
-      "description": "Digitized scalable moratorium. Fugit eaque minus delectus voluptates dolore ex assumenda odit quibusdam.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch11.jpg",
       "contractTypeId": 1,
       "contractSignedOn": "2017-03-12T21:37:42.536Z",
-      "budget": 32277,
+      "budget": 1450000,
       "isActive": false
     },
     {
       "id": 39,
-      "name": "Donnelly Group",
+      "name": "Kauppakeskus Trio",
       "description": "Open-source optimal paradigm. Ut accusamus dolorem iusto voluptatum et modi fugiat ut vel.",
       "imageUrl": "/assets/placeimg_500_300_arch4.jpg",
       "contractTypeId": 1,
       "contractSignedOn": "2009-09-25T18:20:11.391Z",
       "budget": 64172,
-      "isActive": false
+      "isActive": true
     },
     {
       "id": 40,
@@ -402,12 +402,12 @@
     },
     {
       "id": 41,
-      "name": "Gottlieb - Streich",
-      "description": "Re-contextualized full-range internet solution. Est sint perferendis occaecati pariatur quas assumenda molestias esse vitae.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch10.jpg",
       "contractTypeId": 4,
       "contractSignedOn": "2012-08-07T00:35:43.491Z",
-      "budget": 30800,
+      "budget": 1450000,
       "isActive": true
     },
     {
@@ -432,7 +432,7 @@
     },
     {
       "id": 44,
-      "name": "Doyle - Leannon",
+      "name": "Kauppakeskus Trio",
       "description": "Cross-platform impactful database. Voluptatem ea consequatur iure voluptate modi ut ipsum sit eveniet.",
       "imageUrl": "/assets/placeimg_500_300_arch1.jpg",
       "contractTypeId": 5,
@@ -452,7 +452,7 @@
     },
     {
       "id": 46,
-      "name": "Bernier and Sons",
+      "name": "Kauppakeskus Trio",
       "description": "User-friendly directional standardization. Temporibus qui laudantium ipsam sapiente ut eum ab omnis quasi.",
       "imageUrl": "/assets/placeimg_500_300_arch6.jpg",
       "contractTypeId": 1,
@@ -472,12 +472,12 @@
     },
     {
       "id": 48,
-      "name": "Gusikowski, Nikolaus and Beahan",
-      "description": "Reactive maximized standardization. Minus nisi maxime autem non est qui aspernatur adipisci omnis.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch8.jpg",
       "contractTypeId": 3,
       "contractSignedOn": "2017-09-29T00:26:36.192Z",
-      "budget": 54297,
+      "budget": 1450000,
       "isActive": false
     },
     {
@@ -492,7 +492,7 @@
     },
     {
       "id": 50,
-      "name": "Crist, Bergnaum and Sauer",
+      "name": "Testinimi",
       "description": "User-centric multimedia capacity. Quia quo eveniet voluptatem sunt totam omnis voluptatem distinctio tempore.",
       "imageUrl": "/assets/placeimg_500_300_arch4.jpg",
       "contractTypeId": 6,
@@ -512,17 +512,17 @@
     },
     {
       "id": 52,
-      "name": "Jacobs - Senger",
-      "description": "Devolved intangible model. Neque et quisquam repudiandae sunt eveniet qui assumenda inventore reprehenderit.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch6.jpg",
       "contractTypeId": 2,
       "contractSignedOn": "2013-08-29T16:36:21.060Z",
-      "budget": 63043,
+      "budget": 1450000,
       "isActive": false
     },
     {
       "id": 53,
-      "name": "Cummerata, Jast and Bartell",
+      "name": "Kauppakeskus Trio",
       "description": "Persistent dedicated structure. Mollitia commodi sit quaerat et tempora asperiores ex sit quos.",
       "imageUrl": "/assets/placeimg_500_300_arch5.jpg",
       "contractTypeId": 2,
@@ -532,13 +532,13 @@
     },
     {
       "id": 54,
-      "name": "Anderson LLC",
-      "description": "Diverse incremental algorithm. Expedita laudantium sit quisquam sit nobis eum nam ea natus.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch10.jpg",
       "contractTypeId": 2,
       "contractSignedOn": "2015-01-21T07:03:49.836Z",
-      "budget": 74221,
-      "isActive": false
+      "budget": 1450000,
+      "isActive": true
     },
     {
       "id": 55,
@@ -572,12 +572,12 @@
     },
     {
       "id": 58,
-      "name": "Jacobs, Kuphal and Torphy",
-      "description": "Seamless disintermediate extranet. Quis enim et qui reiciendis est nisi vel laborum magnam.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch9.jpg",
       "contractTypeId": 1,
       "contractSignedOn": "2018-02-04T07:32:10.000Z",
-      "budget": 28740,
+      "budget": 1450000,
       "isActive": true
     },
     {
@@ -602,7 +602,7 @@
     },
     {
       "id": 61,
-      "name": "Wiza - Howell",
+      "name": "testi",
       "description": "Upgradable asynchronous utilisation. Molestias maiores dolor aspernatur esse sint fuga deleniti ea eveniet.",
       "imageUrl": "/assets/placeimg_500_300_arch4.jpg",
       "contractTypeId": 2,
@@ -612,12 +612,12 @@
     },
     {
       "id": 62,
-      "name": "Jakubowski, Schultz and Schinner",
-      "description": "Focused 6th generation paradigm. Blanditiis eum qui eius non iste aut nulla enim architecto.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch3.jpg",
       "contractTypeId": 2,
       "contractSignedOn": "2014-07-09T22:04:33.089Z",
-      "budget": 94692,
+      "budget": 1450000,
       "isActive": true
     },
     {
@@ -632,12 +632,12 @@
     },
     {
       "id": 64,
-      "name": "Emard - Sauer",
-      "description": "Multi-layered bi-directional approach. Est explicabo est ullam facilis reiciendis et autem quo et.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch3.jpg",
       "contractTypeId": 5,
       "contractSignedOn": "2013-06-06T09:22:47.989Z",
-      "budget": 94926,
+      "budget": 1450000,
       "isActive": true
     },
     {
@@ -652,32 +652,32 @@
     },
     {
       "id": 66,
-      "name": "Hirthe, Rippin and Ortiz",
-      "description": "Configurable attitude-oriented implementation. Accusantium doloremque quia non sit blanditiis sunt rerum est voluptatem.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch11.jpg",
       "contractTypeId": 7,
       "contractSignedOn": "2013-07-03T23:51:07.952Z",
-      "budget": 75781,
+      "budget": 1450000,
       "isActive": false
     },
     {
       "id": 67,
-      "name": "Bednar - Yundt",
+      "name": "Kauppakeskus Trio",
       "description": "Reactive secondary protocol. Cumque fugiat reprehenderit commodi et ea voluptas aliquid facere placeat.",
       "imageUrl": "/assets/placeimg_500_300_arch6.jpg",
       "contractTypeId": 4,
       "contractSignedOn": "2014-07-16T21:38:04.631Z",
       "budget": 59682,
-      "isActive": false
+      "isActive": true
     },
     {
       "id": 68,
-      "name": "Collier and Sons",
+      "name": "Kauppakeskus Trio",
       "description": "Organic background support. Molestiae in itaque doloremque magnam et placeat vero accusamus quisquam.",
       "imageUrl": "/assets/placeimg_500_300_arch1.jpg",
       "contractTypeId": 4,
       "contractSignedOn": "2015-11-26T08:23:22.651Z",
-      "budget": 94900,
+      "budget": 949004,
       "isActive": false
     },
     {
@@ -732,12 +732,12 @@
     },
     {
       "id": 74,
-      "name": "Armstrong, Crona and Ziemann",
+      "name": "testi",
       "description": "Switchable bifurcated task-force. Hic sed at et id et et qui quis dolores.",
       "imageUrl": "/assets/placeimg_500_300_arch6.jpg",
       "contractTypeId": 2,
       "contractSignedOn": "2012-05-15T12:41:51.113Z",
-      "budget": 91566,
+      "budget": 1,
       "isActive": true
     },
     {
@@ -762,12 +762,12 @@
     },
     {
       "id": 77,
-      "name": "Abshire and Sons",
-      "description": "Ergonomic mission-critical knowledge user. Consequatur pariatur eos molestiae qui aut dolorem laudantium nesciunt doloribus.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch6.jpg",
       "contractTypeId": 6,
       "contractSignedOn": "2018-08-16T18:49:06.477Z",
-      "budget": 98123,
+      "budget": 1450000,
       "isActive": true
     },
     {
@@ -782,32 +782,32 @@
     },
     {
       "id": 79,
-      "name": "Ernser, Turner and Konopelski",
-      "description": "Programmable systematic open architecture. Assumenda tenetur architecto voluptas eius quia tenetur vel magni in.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch7.jpg",
       "contractTypeId": 2,
       "contractSignedOn": "2016-01-22T17:55:42.051Z",
-      "budget": 37661,
+      "budget": 1450000,
       "isActive": false
     },
     {
       "id": 80,
-      "name": "Hilll - Gutmann",
-      "description": "Future-proofed static website. Et veniam vel qui magnam sint consequuntur impedit laudantium doloribus.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch2.jpg",
       "contractTypeId": 3,
       "contractSignedOn": "2013-04-26T03:54:35.005Z",
-      "budget": 80627,
+      "budget": 1450000,
       "isActive": true
     },
     {
       "id": 81,
-      "name": "Beatty, Boehm and West",
-      "description": "Operative high-level emulation. Quos qui dolorum aut voluptatem rerum vel provident necessitatibus dicta.",
+      "name": "asd",
+      "description": "asdfg",
       "imageUrl": "/assets/placeimg_500_300_arch4.jpg",
       "contractTypeId": 5,
       "contractSignedOn": "2012-08-09T13:45:53.932Z",
-      "budget": 75030,
+      "budget": 1235,
       "isActive": true
     },
     {
@@ -822,22 +822,22 @@
     },
     {
       "id": 83,
-      "name": "Farrell - Bosco",
-      "description": "Integrated secondary intranet. Minima adipisci commodi impedit quia repellendus blanditiis dolores voluptatibus et.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch10.jpg",
       "contractTypeId": 4,
       "contractSignedOn": "2011-12-04T12:07:00.270Z",
-      "budget": 33878,
+      "budget": 1450000,
       "isActive": false
     },
     {
       "id": 84,
-      "name": "Grant - Donnelly",
-      "description": "Programmable optimal success. Repellendus sequi expedita qui laborum magnam eligendi tenetur aut et.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch9.jpg",
       "contractTypeId": 1,
       "contractSignedOn": "2012-04-01T22:53:49.723Z",
-      "budget": 82372,
+      "budget": 1450000,
       "isActive": false
     },
     {
@@ -852,17 +852,17 @@
     },
     {
       "id": 86,
-      "name": "Feeney, Lockman and Ryan",
-      "description": "Total fault-tolerant protocol. Fugit ut fugiat dolor unde aut qui error totam laborum.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch3.jpg",
       "contractTypeId": 2,
       "contractSignedOn": "2012-08-16T02:06:36.275Z",
-      "budget": 87307,
+      "budget": 1450000,
       "isActive": true
     },
     {
       "id": 87,
-      "name": "Gusikowski Group",
+      "name": "Kauppakeskus Trio",
       "description": "Implemented motivating utilisation. Magnam in perspiciatis ut accusamus soluta quis nobis maiores in.",
       "imageUrl": "/assets/placeimg_500_300_arch1.jpg",
       "contractTypeId": 5,
@@ -942,12 +942,12 @@
     },
     {
       "id": 95,
-      "name": "Armstrong - Hands",
-      "description": "Persistent 3rd generation capability. Sint omnis asperiores voluptas sapiente delectus blanditiis earum ut voluptatem.",
+      "name": "Haljamintie 21",
+      "description": "Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.",
       "imageUrl": "/assets/placeimg_500_300_arch6.jpg",
       "contractTypeId": 2,
       "contractSignedOn": "2010-09-24T21:02:41.601Z",
-      "budget": 38853,
+      "budget": 1450000,
       "isActive": false
     },
     {

@@ -1,7 +1,7 @@
-import React, { SyntheticEvent, useState } from 'react';
-import { useDispatch } from 'react-redux';
-import { Project } from './Project';
-import { saveProject } from './state/projectActions';
+import React, { SyntheticEvent, useState } from "react";
+import { useDispatch } from "react-redux";
+import { Project } from "./Project";
+import { saveProject } from "./state/projectActions";
 
 interface ProjectFormProps {
   project: Project;
@@ -12,9 +12,9 @@ interface ProjectFormProps {
 function ProjectForm({ project: initialProject, onCancel }: ProjectFormProps) {
   const [project, setProject] = useState(initialProject);
   const [errors, setErrors] = useState({
-    name: '',
-    description: '',
-    budget: '',
+    name: "",
+    description: "",
+    budget: "",
   });
 
   const dispatch = useDispatch();
@@ -29,10 +29,10 @@ function ProjectForm({ project: initialProject, onCancel }: ProjectFormProps) {
     const { type, name, value, checked } = event.target;
     // if input type is checkbox use checked
     // otherwise it's type is text, number etc. so use value
-    let updatedValue = type === 'checkbox' ? checked : value;
+    let updatedValue = type === "checkbox" ? checked : value;
 
     //if input type is number convert the updatedValue string to a number
-    if (type === 'number') {
+    if (type === "number") {
       updatedValue = Number(updatedValue);
     }
     const change = {
@@ -53,18 +53,18 @@ function ProjectForm({ project: initialProject, onCancel }: ProjectFormProps) {
   };
 
   function validate(project: Project) {
-    let errors: any = { name: '', description: '', budget: '' };
+    let errors: any = { name: "", description: "", budget: "" };
     if (project.name.length === 0) {
-      errors.name = 'Name is required';
+      errors.name = "Name is required";
     }
     if (project.name.length > 0 && project.name.length < 3) {
-      errors.name = 'Name needs to be at least 3 characters.';
+      errors.name = "Name needs to be at least 3 characters.";
     }
     if (project.description.length === 0) {
-      errors.description = 'Description is required.';
+      errors.description = "Description is required.";
     }
     if (project.budget === 0) {
-      errors.budget = 'Budget must be more than $0.';
+      errors.budget = "Budget must be more than $0.";
     }
     return errors;
   }
@@ -88,6 +88,7 @@ function ProjectForm({ project: initialProject, onCancel }: ProjectFormProps) {
       <input
         type="text"
         id="name"
+        aria-label="project name"
         name="name"
         placeholder="enter name"
         value={project.name}
@@ -146,6 +147,10 @@ function ProjectForm({ project: initialProject, onCancel }: ProjectFormProps) {
       </div>
     </form>
   );
+
+
+
+
 }
 
 export default ProjectForm;

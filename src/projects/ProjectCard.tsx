@@ -1,9 +1,9 @@
-import { Project } from './Project';
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { Project } from "./Project";
+import React from "react";
+import { Link } from "react-router-dom";
 
 function formatDescription(description: string): string {
-  return description.substring(0, 60) + '...';
+  return description.substring(0, 60) + "...";
 }
 
 interface ProjectCardProps {
@@ -22,7 +22,7 @@ function ProjectCard(props: ProjectCardProps) {
     <div className="card">
       <img src={project.imageUrl} alt={project.name} />
       <section className="section dark">
-        <Link to={'/projects/' + project.id}>
+        <Link to={"/projects/" + project.id}>
           <h5 className="strong">
             <strong>{project.name}</strong>
           </h5>

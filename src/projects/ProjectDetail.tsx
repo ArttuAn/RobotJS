@@ -1,5 +1,5 @@
-import React from 'react';
-import { Project } from './Project';
+import React from "react";
+import { Project } from "./Project";
 
 interface ProjectDetailProps {
   project: Project;
@@ -19,8 +19,8 @@ export default function ProjectDetail({ project }: ProjectDetailProps) {
             <p>Signed: {project.contractSignedOn.toLocaleDateString()}</p>
             <p>
               <mark className="active">
-                {' '}
-                {project.isActive ? 'active' : 'inactive'}
+                {" "}
+                {project.isActive ? "active" : "inactive"}
               </mark>
             </p>
           </section>

@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { AppState } from '../state';
-import ProjectList from './ProjectList';
-import { loadProjects } from './state/projectActions';
-import { AnyAction } from 'redux';
-import { ThunkDispatch } from 'redux-thunk';
-import { ProjectState } from './state/projectTypes';
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { AppState } from "../state";
+import ProjectList from "./ProjectList";
+import { loadProjects } from "./state/projectActions";
+import { AnyAction } from "redux";
+import { ThunkDispatch } from "redux-thunk";
+import { ProjectState } from "./state/projectTypes";
 
 function ProjectsPage() {
   const loading = useSelector(

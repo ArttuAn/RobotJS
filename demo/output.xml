@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.8 on win32)" generated="20221202 00:23:09.635" rpa="false" schemaversion="3">
+<suite id="s1" name="Systemtests" source="C:\Users\T470s\OneDrive\Desktop\Ohjelmistotestaus\keeptrack-ts\demo\systemtests.robot">
+<test id="s1-t1" name="3: Käyttäjän navigointi kaikilla mahdollisilla sovelluksen sivuilla" line="48">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://127.0.0.1:3000/</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221202 00:23:09.920" level="INFO">Opening browser 'Chrome' to base url 'http://127.0.0.1:3000/'.</msg>
+<status status="PASS" starttime="20221202 00:23:09.920" endtime="20221202 00:23:11.974"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221202 00:23:11.987" endtime="20221202 00:23:12.115"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20221202 00:23:12.116" endtime="20221202 00:23:12.116"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>Home</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20221202 00:23:12.782" level="INFO">Current page contains text 'Home'.</msg>
+<status status="PASS" starttime="20221202 00:23:12.117" endtime="20221202 00:23:12.782"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>Projects</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20221202 00:23:12.786" level="INFO">Clicking link 'Projects'.</msg>
+<status status="PASS" starttime="20221202 00:23:12.784" endtime="20221202 00:23:13.825"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>Projects</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20221202 00:23:14.512" level="INFO">Current page contains text 'Projects'.</msg>
+<status status="PASS" starttime="20221202 00:23:13.829" endtime="20221202 00:23:14.512"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="root"]/div/div[1]/div[1]/div/section/a/p[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221202 00:23:14.513" level="INFO">Clicking element '//*[@id="root"]/div/div[1]/div[1]/div/section/a/p[1]'.</msg>
+<status status="PASS" starttime="20221202 00:23:14.512" endtime="20221202 00:23:15.205"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>Project Detail</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20221202 00:23:15.891" level="INFO">Current page contains text 'Project Detail'.</msg>
+<status status="PASS" starttime="20221202 00:23:15.213" endtime="20221202 00:23:15.891"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>http://127.0.0.1:3000/falseurl</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20221202 00:23:15.892" level="INFO">Opening url 'http://127.0.0.1:3000/falseurl'</msg>
+<status status="PASS" starttime="20221202 00:23:15.892" endtime="20221202 00:23:16.337"/>
+</kw>
+<kw name="Page Should Not Contain" library="SeleniumLibrary">
+<arg>//*[@id="root"]/div/h2</arg>
+<doc>Verifies the current page does not contain ``text``.</doc>
+<msg timestamp="20221202 00:23:17.284" level="INFO">Current page does not contain text '//*[@id="root"]/div/h2'.</msg>
+<status status="PASS" starttime="20221202 00:23:16.338" endtime="20221202 00:23:17.284"/>
+</kw>
+<kw name="Page Should Not Contain" library="SeleniumLibrary">
+<arg>Project Detail</arg>
+<doc>Verifies the current page does not contain ``text``.</doc>
+<msg timestamp="20221202 00:23:18.235" level="INFO">Current page does not contain text 'Project Detail'.</msg>
+<status status="PASS" starttime="20221202 00:23:17.285" endtime="20221202 00:23:18.235"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>http://localhost:3000/projects/53123</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20221202 00:23:18.236" level="INFO">Opening url 'http://localhost:3000/projects/53123'</msg>
+<status status="PASS" starttime="20221202 00:23:18.235" endtime="20221202 00:23:18.847"/>
+</kw>
+<kw name="Page Should Not Contain" library="SeleniumLibrary">
+<arg>Home</arg>
+<doc>Verifies the current page does not contain ``text``.</doc>
+<msg timestamp="20221202 00:23:19.809" level="INFO">Current page does not contain text 'Home'.</msg>
+<status status="PASS" starttime="20221202 00:23:18.847" endtime="20221202 00:23:19.809"/>
+</kw>
+<kw name="Page Should Not Contain" library="SeleniumLibrary">
+<arg>Projects</arg>
+<doc>Verifies the current page does not contain ``text``.</doc>
+<msg timestamp="20221202 00:23:20.779" level="INFO">Current page does not contain text 'Projects'.</msg>
+<status status="PASS" starttime="20221202 00:23:19.809" endtime="20221202 00:23:20.780"/>
+</kw>
+<kw name="Page Should Not Contain" library="SeleniumLibrary">
+<arg>Project Detail</arg>
+<doc>Verifies the current page does not contain ``text``.</doc>
+<msg timestamp="20221202 00:23:21.758" level="INFO">Current page does not contain text 'Project Detail'.</msg>
+<status status="PASS" starttime="20221202 00:23:20.782" endtime="20221202 00:23:21.758"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221202 00:23:21.759" endtime="20221202 00:23:24.239"/>
+</kw>
+<status status="PASS" starttime="20221202 00:23:09.919" endtime="20221202 00:23:24.242"/>
+</test>
+<test id="s1-t2" name="4: Edit toiminnon testaus, siirtyminen kortilta toiselle" line="66">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://127.0.0.1:3000/</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221202 00:23:24.244" level="INFO">Opening browser 'Chrome' to base url 'http://127.0.0.1:3000/'.</msg>
+<status status="PASS" starttime="20221202 00:23:24.244" endtime="20221202 00:23:26.367"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221202 00:23:26.369" endtime="20221202 00:23:26.848"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20221202 00:23:26.851" endtime="20221202 00:23:26.852"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>Home</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20221202 00:23:27.532" level="INFO">Current page contains text 'Home'.</msg>
+<status status="PASS" starttime="20221202 00:23:26.854" endtime="20221202 00:23:27.533"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>Projects</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20221202 00:23:27.536" level="INFO">Clicking link 'Projects'.</msg>
+<status status="PASS" starttime="20221202 00:23:27.535" endtime="20221202 00:23:28.574"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>//*[@id="root"]/div/div[1]/div[1]/div/section/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221202 00:23:28.581" level="INFO">Clicking button '//*[@id="root"]/div/div[1]/div[1]/div/section/button'.</msg>
+<status status="PASS" starttime="20221202 00:23:28.579" endtime="20221202 00:23:29.922"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>id:budget</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" starttime="20221202 00:23:29.922" endtime="20221202 00:23:30.600"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>name:name</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" starttime="20221202 00:23:30.600" endtime="20221202 00:23:31.268"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>id:description</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" starttime="20221202 00:23:31.268" endtime="20221202 00:23:31.917"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:budget</arg>
+<arg>1450000</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221202 00:23:31.918" level="INFO">Typing text '1450000' into text field 'id:budget'.</msg>
+<status status="PASS" starttime="20221202 00:23:31.917" endtime="20221202 00:23:32.926"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:name</arg>
+<arg>Haljamintie 21</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221202 00:23:32.927" level="INFO">Typing text 'Haljamintie 21' into text field 'name:name'.</msg>
+<status status="PASS" starttime="20221202 00:23:32.926" endtime="20221202 00:23:33.982"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:description</arg>
+<arg>Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221202 00:23:33.983" level="INFO">Typing text 'Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.' into text field 'id:description'.</msg>
+<status status="PASS" starttime="20221202 00:23:33.982" endtime="20221202 00:23:35.173"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>Save</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221202 00:23:35.182" level="INFO">Clicking button 'Save'.</msg>
+<status status="PASS" starttime="20221202 00:23:35.181" endtime="20221202 00:23:36.543"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>//*[@id="root"]/div/div[1]/div[1]/div/section/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221202 00:23:36.547" level="INFO">Clicking button '//*[@id="root"]/div/div[1]/div[1]/div/section/button'.</msg>
+<status status="PASS" starttime="20221202 00:23:36.545" endtime="20221202 00:23:38.186"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>id:budget</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" starttime="20221202 00:23:38.186" endtime="20221202 00:23:38.855"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>name:name</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" starttime="20221202 00:23:38.855" endtime="20221202 00:23:39.513"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>id:description</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="PASS" starttime="20221202 00:23:39.514" endtime="20221202 00:23:40.195"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>//*[@id="root"]/div/div[1]/div[2]/div/section/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221202 00:23:40.196" level="INFO">Clicking button '//*[@id="root"]/div/div[1]/div[2]/div/section/button'.</msg>
+<status status="PASS" starttime="20221202 00:23:40.196" endtime="20221202 00:23:41.805"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>//*[@id="root"]/div/div[1]/div[1]/div/section/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20221202 00:23:41.806" level="INFO">Clicking button '//*[@id="root"]/div/div[1]/div[1]/div/section/button'.</msg>
+<status status="PASS" starttime="20221202 00:23:41.806" endtime="20221202 00:23:43.426"/>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>id:description</arg>
+<arg>Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<msg timestamp="20221202 00:23:43.427" level="INFO">Verifying element 'id:description' contains exact text 'Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.'.</msg>
+<status status="PASS" starttime="20221202 00:23:43.426" endtime="20221202 00:23:44.051"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221202 00:23:44.051" endtime="20221202 00:23:46.835"/>
+</kw>
+<status status="PASS" starttime="20221202 00:23:24.243" endtime="20221202 00:23:46.836"/>
+</test>
+<test id="s1-t3" name="5: Projektien tallennustoiminnon testaminen oikalla datalla, ikkunan kokona iPhone 12 Pro" line="89">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://127.0.0.1:3000</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221202 00:23:46.838" level="INFO">Opening browser 'Chrome' to base url 'http://127.0.0.1:3000'.</msg>
+<status status="PASS" starttime="20221202 00:23:46.838" endtime="20221202 00:23:49.204"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20221202 00:23:49.205" endtime="20221202 00:23:49.646"/>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<arg>390</arg>
+<arg>844</arg>
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<status status="PASS" starttime="20221202 00:23:49.646" endtime="20221202 00:23:50.187"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20221202 00:23:50.188" endtime="20221202 00:23:50.188"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>Projects</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20221202 00:23:50.189" level="INFO">Clicking link 'Projects'.</msg>
+<msg timestamp="20221202 00:23:54.940" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000112D09DACE0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7035d46fbe094926155565bac1119878/screenshot</msg>
+<msg timestamp="20221202 00:23:58.998" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000112D09DA2F0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7035d46fbe094926155565bac1119878/screenshot</msg>
+<msg timestamp="20221202 00:24:03.049" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000112D09DA620&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7035d46fbe094926155565bac1119878/screenshot</msg>
+<msg timestamp="20221202 00:24:07.141" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: HTTPConnectionPool(host='localhost', port=57920): Max retries exceeded with url: /session/7035d46fbe094926155565bac1119878/screenshot (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000112D0A60160&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))</msg>
+<status status="FAIL" starttime="20221202 00:23:50.189" endtime="20221202 00:24:07.148"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>//*[@id="root"]/div/div[2]/div/div/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221202 00:24:07.150" endtime="20221202 00:24:07.150"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>//*[@id="root"]/div/div[1]/div[36]/div/section/button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221202 00:24:07.152" endtime="20221202 00:24:07.152"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>id:budget</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221202 00:24:07.154" endtime="20221202 00:24:07.154"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>name:name</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221202 00:24:07.155" endtime="20221202 00:24:07.155"/>
+</kw>
+<kw name="Clear Element Text" library="SeleniumLibrary">
+<arg>id:description</arg>
+<doc>Clears the value of the text-input-element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221202 00:24:07.157" endtime="20221202 00:24:07.158"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:budget</arg>
+<arg>1450000</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221202 00:24:07.159" endtime="20221202 00:24:07.159"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:name</arg>
+<arg>Haljamintie 21</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221202 00:24:07.161" endtime="20221202 00:24:07.162"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:description</arg>
+<arg>Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221202 00:24:07.164" endtime="20221202 00:24:07.164"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>Save</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221202 00:24:07.166" endtime="20221202 00:24:07.167"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="root"]/div/div[1]/div[36]/div/section/a/p[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20221202 00:24:07.169" endtime="20221202 00:24:07.169"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>Project Detail</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" starttime="20221202 00:24:07.171" endtime="20221202 00:24:07.171"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>Haljamintie 21</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" starttime="20221202 00:24:07.173" endtime="20221202 00:24:07.174"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>Tämä rakennus sai alkunsa vuonna 2000, ja on käymässä läpi renevaatioita.</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" starttime="20221202 00:24:07.175" endtime="20221202 00:24:07.175"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>1450000</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" starttime="20221202 00:24:07.177" endtime="20221202 00:24:07.177"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<msg timestamp="20221202 00:24:11.256" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000112D0A60970&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7035d46fbe094926155565bac1119878</msg>
+<msg timestamp="20221202 00:24:15.362" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000112D09DBD30&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7035d46fbe094926155565bac1119878</msg>
+<msg timestamp="20221202 00:24:19.460" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000112D09DA260&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7035d46fbe094926155565bac1119878</msg>
+<errors>
+<msg timestamp="20221202 00:23:54.940" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000112D09DACE0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7035d46fbe094926155565bac1119878/screenshot</msg>
+<msg timestamp="20221202 00:23:58.998" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000112D09DA2F0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7035d46fbe094926155565bac1119878/screenshot</msg>
+<msg timestamp="20221202 00:24:03.049" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000112D09DA620&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7035d46fbe094926155565bac1119878/screenshot</msg>
+<msg timestamp="20221202 00:24:07.141" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: HTTPConnectionPool(host='localhost', port=57920): Max retries exceeded with url: /session/7035d46fbe094926155565bac1119878/screenshot (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000112D0A60160&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))</msg>
+<msg timestamp="20221202 00:24:11.256" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000112D0A60970&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7035d46fbe094926155565bac1119878</msg>
+<msg timestamp="20221202 00:24:15.362" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000112D09DBD30&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7035d46fbe094926155565bac1119878</msg>
+<msg timestamp="20221202 00:24:19.460" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00000112D09DA260&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7035d46fbe094926155565bac1119878</msg>
+<msg timestamp="20221202 00:24:27.665" level="ERROR">Execution stopped by user.</msg>
+</errors>
+</robot>

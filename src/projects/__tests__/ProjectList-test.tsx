@@ -1,13 +1,13 @@
-import { render, screen } from '@testing-library/react';
-import React from 'react';
-import { MemoryRouter } from 'react-router-dom';
-import ProjectList from '../ProjectList';
-import { MOCK_PROJECTS } from '../MockProjects';
-import userEvent from '@testing-library/user-event';
-import { Provider } from 'react-redux';
-import { store } from '../../state';
+import { render, screen, waitFor } from "@testing-library/react";
+import React from "react";
+import { MemoryRouter } from "react-router-dom";
+import ProjectList from "../ProjectList";
+import { MOCK_PROJECTS } from "../MockProjects";
+import userEvent from "@testing-library/user-event";
+import { Provider } from "react-redux";
+import { store } from "../../state";
 
-describe('<ProjectList />', () => {
+describe("<ProjectList />", () => {
   const setup = () =>
     render(
       <Provider store={store}>
@@ -19,54 +19,85 @@ describe('<ProjectList />', () => {
 
   beforeEach(() => {});
 
-  test('should render without crashing', () => {
+  test("should render without crashing", () => {
     setup();
     expect(screen).toBeDefined();
   });
 
-  test('should display list', () => {
+  test("should display list", () => {
     setup();
-    expect(screen.getAllByRole('heading')).toHaveLength(MOCK_PROJECTS.length);
-    expect(screen.getAllByRole('img')).toHaveLength(MOCK_PROJECTS.length);
-    expect(screen.getAllByRole('link')).toHaveLength(MOCK_PROJECTS.length);
-    expect(screen.getAllByRole('button')).toHaveLength(MOCK_PROJECTS.length);
+    expect(screen.getAllByRole("heading")).toHaveLength(MOCK_PROJECTS.length);
+    expect(screen.getAllByRole("img")).toHaveLength(MOCK_PROJECTS.length);
+    expect(screen.getAllByRole("link")).toHaveLength(MOCK_PROJECTS.length);
+    expect(screen.getAllByRole("button")).toHaveLength(MOCK_PROJECTS.length);
   });
 
-  test('should display form when edit clicked', async () => {
+  test("should display form when edit clicked", async () => {
     setup();
     // eslint-disable-next-line testing-library/render-result-naming-convention
     const user = userEvent.setup();
     await user.click(
-      screen.getByRole('button', { name: /edit Wisozk Group/i })
+      screen.getByRole("button", { name: /edit Wisozk Group/i })
     );
     expect(
-      screen.getByRole('form', {
+      screen.getByRole("form", {
         name: /edit a project/i,
       })
     ).toBeInTheDocument();
   });
 
-  test('should display image and remove form when cancel clicked', async () => {
+  test("should display image and remove form when cancel clicked", async () => {
     setup();
     // eslint-disable-next-line testing-library/render-result-naming-convention
     const user = userEvent.setup();
     await user.click(
-      screen.getByRole('button', { name: /edit Wisozk Group/i })
+      screen.getByRole("button", { name: /edit Wisozk Group/i })
     );
     await user.click(
-      screen.getByRole('button', {
+      screen.getByRole("button", {
         name: /cancel/i,
       })
     );
     expect(
-      screen.getByRole('img', {
+      screen.getByRole("img", {
         name: /wisozk group/i,
       })
     ).toBeInTheDocument();
     expect(
-      screen.queryByRole('form', {
+      screen.queryByRole("form", {
         name: /edit a project/i,
       })
     ).not.toBeInTheDocument();
+  });
+
+  //Yksikkötesti, harjoitustyö
+  test("Hylätään uusi editoitu deskriptio, sen ei pitäisi näkyä sivulla", async () => {
+    setup();
+    const user = userEvent.setup();
+    await user.click(screen.getByRole("button", { name: /edit Denesik LLC/i }));
+    await user.clear(
+      screen.getByRole("textbox", {
+        name: /project description/i,
+      })
+    );
+    await user.type(
+      screen.getByRole("textbox", {
+        name: /project description/i,
+      }),
+      "testi"
+    );
+    expect(
+      screen.getByRole("textbox", {
+        name: /project description/i,
+      })
+    ).toHaveValue("testi");
+    await user.click(
+      screen.getByRole("button", {
+        name: /cancel/i,
+      })
+    );
+    await waitFor(() => {
+      expect(screen.queryByText("testi")).not.toBeInTheDocument();
+    });
   });
 });

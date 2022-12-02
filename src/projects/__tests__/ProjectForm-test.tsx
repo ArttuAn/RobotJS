@@ -1,13 +1,13 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import { MemoryRouter } from 'react-router-dom';
-import { Project } from '../Project';
-import ProjectForm from '../ProjectForm';
-import { Provider } from 'react-redux';
-import { store } from '../../state';
-import userEvent from '@testing-library/user-event';
+import React from "react";
+import { render, screen } from "@testing-library/react";
+import { MemoryRouter } from "react-router-dom";
+import { Project } from "../Project";
+import ProjectForm from "../ProjectForm";
+import { Provider } from "react-redux";
+import { store } from "../../state";
+import userEvent from "@testing-library/user-event";
 
-describe('<ProjectForm />', () => {
+describe("<ProjectForm />", () => {
   let project: Project;
   let updatedProject: Project;
   let handleCancel: jest.Mock;
@@ -24,13 +24,13 @@ describe('<ProjectForm />', () => {
       </Provider>
     );
 
-    nameTextBox = screen.getByRole('textbox', {
+    nameTextBox = screen.getByRole("textbox", {
       name: /project name/i,
     });
-    descriptionTextBox = screen.getByRole('textbox', {
+    descriptionTextBox = screen.getByRole("textbox", {
       name: /project description/i,
     });
-    budgetTextBox = screen.getByRole('spinbutton', {
+    budgetTextBox = screen.getByRole("spinbutton", {
       name: /project budget/i,
     });
   };
@@ -38,22 +38,22 @@ describe('<ProjectForm />', () => {
   beforeEach(() => {
     project = new Project({
       id: 1,
-      name: 'Mission Impossible',
-      description: 'This is really difficult',
+      name: "Mission Impossible",
+      description: "This is really difficult",
       budget: 100,
     });
     updatedProject = new Project({
-      name: 'Ghost Protocol',
+      name: "Ghost Protocol",
       description:
-        'Blamed for a terrorist attack on the Kremlin, Ethan Hunt (Tom Cruise) and the entire IMF agency...',
+        "Blamed for a terrorist attack on the Kremlin, Ethan Hunt (Tom Cruise) and the entire IMF agency...",
     });
     handleCancel = jest.fn();
   });
 
-  test('should load project into form', () => {
+  test("should load project into form", () => {
     setup();
     expect(
-      screen.getByRole('form', {
+      screen.getByRole("form", {
         name: /edit a project/i,
       })
     ).toHaveFormValues({
@@ -64,7 +64,7 @@ describe('<ProjectForm />', () => {
     });
   });
 
-  test('should accept input', async () => {
+  test("should accept input", async () => {
     setup();
     const user = userEvent.setup();
     await user.clear(nameTextBox);
@@ -80,30 +80,57 @@ describe('<ProjectForm />', () => {
     expect(budgetTextBox).toHaveValue(updatedProject.budget);
   });
 
-  test('name should display required validation', async () => {
+  test("name should display required validation", async () => {
     setup();
     const user = userEvent.setup();
     await user.clear(nameTextBox);
-    expect(screen.getByRole('alert')).toBeInTheDocument();
+    expect(screen.getByRole("alert")).toBeInTheDocument();
   });
 
-  test('name should display minlength validation', async () => {
+  test("name should display minlength validation", async () => {
     setup();
     const user = userEvent.setup();
     await user.clear(nameTextBox);
-    await user.type(nameTextBox, 'ab');
-    await expect(screen.getByRole('alert')).toBeInTheDocument();
-    await user.type(nameTextBox, 'c');
-    expect(screen.queryByRole('alert')).not.toBeInTheDocument();
+    await user.type(nameTextBox, "ab");
+    await expect(screen.getByRole("alert")).toBeInTheDocument();
+    await user.type(nameTextBox, "c");
+    expect(screen.queryByRole("alert")).not.toBeInTheDocument();
   });
 
-  test('budget should display not 0 validation', async () => {
+  test("budget should display not 0 validation", async () => {
     setup();
     const user = userEvent.setup();
     await user.clear(budgetTextBox);
-    await user.type(budgetTextBox, '0');
-    expect(screen.getByRole('alert')).toBeInTheDocument();
-    await user.type(budgetTextBox, '1');
-    expect(screen.queryByRole('alert')).not.toBeInTheDocument();
+    await user.type(budgetTextBox, "0");
+    expect(screen.getByRole("alert")).toBeInTheDocument();
+    await user.type(budgetTextBox, "1");
+    expect(screen.queryByRole("alert")).not.toBeInTheDocument();
+  });
+
+  //Yksikkötesti, harjoitustyö
+  test("Save nappia ei pitäisi pystyä painamaan deskriptio-errorin ollessa päällä", async () => {
+    setup();
+    const user = userEvent.setup();
+    await user.clear(descriptionTextBox);
+    expect(screen.getByRole("alert")).toBeInTheDocument();
+
+    await user.click(
+      screen.getByRole("button", {
+        name: /save/i,
+      })
+    );
+
+    expect(screen.queryByRole("alert")).toBeInTheDocument();
+
+    expect(
+      screen.getByRole("form", {
+        name: /edit a project/i,
+      })
+    ).toHaveFormValues({
+      name: project.name,
+      description: "",
+      budget: project.budget,
+      isActive: project.isActive,
+    });
   });
 });
