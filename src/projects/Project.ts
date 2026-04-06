@@ -22,7 +22,9 @@ export class Project {
       this.contractTypeId = initializer.contractTypeId;
     if (initializer.contractSignedOn)
       this.contractSignedOn = new Date(initializer.contractSignedOn);
-    if (initializer.budget) this.budget = initializer.budget;
-    if (initializer.isActive) this.isActive = initializer.isActive;
+    if (initializer.budget !== undefined && initializer.budget !== null)
+      this.budget = Number(initializer.budget);
+    if (initializer.isActive !== undefined)
+      this.isActive = Boolean(initializer.isActive);
   }
 }

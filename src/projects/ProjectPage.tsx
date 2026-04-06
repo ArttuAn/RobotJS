@@ -19,8 +19,10 @@ function ProjectPage(props: any) {
         setProject(data);
         setLoading(false);
       })
-      .catch((e) => {
-        setError(e);
+      .catch((e: unknown) => {
+        const message =
+          e instanceof Error ? e.message : "Failed to load project.";
+        setError(message);
         setLoading(false);
       });
   }, [id]);
